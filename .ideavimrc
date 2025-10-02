@@ -50,3 +50,6 @@ set clipboard+=unnamedplus
 
 " Show both relative & usual line numbers
 set number relativenumber
+
+" Disable Vim from dialogs (e.g. Commit Message)
+set ideavimsupport=
