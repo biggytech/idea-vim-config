@@ -9,7 +9,13 @@ nnoremap <C-@> i
 inoremap <C-@> <Esc>
 
 " Support external clipboard
+" Linux
 set clipboard+=unnamedplus
+" MacOS and Windows
+set clipboard+=unnamed
 
 " Show both relative & usual line numbers
 set number relativenumber
+
+" Highlight Syntax
+syntax on
